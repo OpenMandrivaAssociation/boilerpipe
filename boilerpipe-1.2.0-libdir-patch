@@ -1,0 +1,21 @@
+--- build.xml	2011-05-28 16:56:41.000000000 +0200
++++ build.xml-gil	2011-08-15 17:57:57.279492364 +0200
+@@ -53,7 +53,7 @@
+ 
+ 	<property name="build.main" value="${build.dir}/main" />
+ 	<property name="build.demo" value="${build.dir}/demo" />
+-    <property name="lib.dir" value="${app.dir}/lib" />
++    <property name="lib.dir" value="/usr/share/java" />
+ 	<property name="src.main" value="${app.dir}/src/main" />
+ 	<property name="src.demo" value="${app.dir}/src/demo" />
+ 	<property name="dist.dir" value="${app.dir}/dist" />
+@@ -67,7 +67,8 @@
+ 
+    <path id="classpath.libs">
+         <fileset dir="${lib.dir}">
+-            <include name="**/*.jar" />
++            <include name="nekohtml.jar" />
++            <include name="xerces-j2.jar" />
+         </fileset>
+     </path>
+ 
