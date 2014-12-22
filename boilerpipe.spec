@@ -1,7 +1,9 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          boilerpipe
 Version:       1.2.0
-Release:       3%{?dist}
+Release:       3.1
 Summary:       Boilerplate Removal and Fulltext Extraction from HTML pages
+Group:         Development/Java
 License:       ASL 2.0
 Url:           http://code.google.com/p/boilerpipe/
 Source0:       http://boilerpipe.googlecode.com/files/%{name}-%{version}-src.tar.gz
