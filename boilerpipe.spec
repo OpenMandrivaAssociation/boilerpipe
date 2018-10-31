@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          boilerpipe
 Version:       1.2.0
-Release:       3.2
+Release:       3.3
 Summary:       Boilerplate Removal and Fulltext Extraction from HTML pages
 Group:         Development/Java
 License:       ASL 2.0
