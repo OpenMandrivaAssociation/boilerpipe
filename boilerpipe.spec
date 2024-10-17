@@ -5,7 +5,7 @@ Release:       3.3
 Summary:       Boilerplate Removal and Fulltext Extraction from HTML pages
 Group:         Development/Java
 License:       ASL 2.0
-Url:           http://code.google.com/p/boilerpipe/
+Url:           https://code.google.com/p/boilerpipe/
 Source0:       http://boilerpipe.googlecode.com/files/%{name}-%{version}-src.tar.gz
 Source1:       http://boilerpipe.googlecode.com/svn/repo/de/l3s/%{name}/%{name}/%{version}/%{name}-%{version}.pom
 # use system libraries
